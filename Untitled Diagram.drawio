@@ -1,16 +1,16 @@
-<mxfile host="app.diagrams.net" modified="2023-03-25T12:16:17.496Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="XW700gkCQ1MT_UQCb-Dd" version="20.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-25T12:27:12.272Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="40G2myKV82hV-5Qh8a9h" version="20.0.4" type="github">
   <diagram id="uiixQkvdrueYnghKikUp" name="Page-1">
     <mxGraphModel dx="2583" dy="1392" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="hJXGp6yqipr6yBsHybek-26" value="&lt;font color=&quot;#ffffff&quot;&gt;&lt;span style=&quot;font-size: 30px;&quot;&gt;MapPartionRdd - map()&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fontFamily=Comic Sans MS;fillColor=#4C0099;align=left;verticalAlign=top;strokeColor=#000000;strokeWidth=5;" vertex="1" parent="1">
+        <mxCell id="hJXGp6yqipr6yBsHybek-26" value="&lt;font color=&quot;#ffffff&quot;&gt;&lt;span style=&quot;font-size: 30px;&quot;&gt;ShuffledRDD - reduceByKey()&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fontFamily=Comic Sans MS;fillColor=#4C0099;align=left;verticalAlign=top;strokeColor=#000000;strokeWidth=5;" vertex="1" parent="1">
           <mxGeometry x="610" y="1700" width="1130" height="530" as="geometry" />
         </mxCell>
-        <mxCell id="hJXGp6yqipr6yBsHybek-21" value="&lt;font color=&quot;#ffffff&quot;&gt;&lt;span style=&quot;font-size: 30px;&quot;&gt;MapPartionRdd - map()&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fontFamily=Comic Sans MS;fillColor=#007FFF;align=left;verticalAlign=top;strokeColor=#000000;strokeWidth=5;" vertex="1" parent="1">
+        <mxCell id="hJXGp6yqipr6yBsHybek-21" value="&lt;font color=&quot;#ffffff&quot;&gt;&lt;span style=&quot;font-size: 30px;&quot;&gt;MapPartitionRDD - map()&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fontFamily=Comic Sans MS;fillColor=#007FFF;align=left;verticalAlign=top;strokeColor=#000000;strokeWidth=5;" vertex="1" parent="1">
           <mxGeometry x="620" y="1750" width="870" height="470" as="geometry" />
         </mxCell>
-        <mxCell id="hJXGp6yqipr6yBsHybek-15" value="&lt;font color=&quot;#ffffff&quot;&gt;&lt;span style=&quot;font-size: 30px;&quot;&gt;MapPartionRdd - flatMap()&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fontFamily=Comic Sans MS;fillColor=#00CC00;align=left;verticalAlign=top;strokeColor=#000000;strokeWidth=5;" vertex="1" parent="1">
+        <mxCell id="hJXGp6yqipr6yBsHybek-15" value="&lt;font color=&quot;#ffffff&quot;&gt;&lt;span style=&quot;font-size: 30px;&quot;&gt;MapPartitionRDD - flatMap()&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fontFamily=Comic Sans MS;fillColor=#00CC00;align=left;verticalAlign=top;strokeColor=#000000;strokeWidth=5;" vertex="1" parent="1">
           <mxGeometry x="630" y="1810" width="610" height="400" as="geometry" />
         </mxCell>
         <mxCell id="Z0Vu20o25RXE1RvMCZpv-2" value="Driver" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fontFamily=Comic Sans MS;fillColor=#FF3333;align=left;verticalAlign=top;" parent="1" vertex="1">
@@ -94,7 +94,7 @@
         <mxCell id="hJXGp6yqipr6yBsHybek-8" value="RDD&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fontFamily=Comic Sans MS;fillColor=#7F00FF;align=left;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="65" y="305" width="245" height="275" as="geometry" />
         </mxCell>
-        <mxCell id="hJXGp6yqipr6yBsHybek-9" value="&lt;font color=&quot;#ffffff&quot;&gt;&lt;span style=&quot;font-size: 30px;&quot;&gt;HadoopRdd - textFile()&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fontFamily=Comic Sans MS;fillColor=#FF0000;align=left;verticalAlign=top;strokeColor=#000000;strokeWidth=5;" vertex="1" parent="1">
+        <mxCell id="hJXGp6yqipr6yBsHybek-9" value="&lt;font color=&quot;#ffffff&quot;&gt;&lt;span style=&quot;font-size: 30px;&quot;&gt;HadoopRDD - textFile()&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fontFamily=Comic Sans MS;fillColor=#FF0000;align=left;verticalAlign=top;strokeColor=#000000;strokeWidth=5;" vertex="1" parent="1">
           <mxGeometry x="640" y="1890.63" width="410" height="308.75" as="geometry" />
         </mxCell>
         <mxCell id="hJXGp6yqipr6yBsHybek-10" value="Hello,spark" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontFamily=Comic Sans MS;fontSize=30;fontColor=#000000;strokeColor=#000000;strokeWidth=5;fillColor=#FFFFFF;" vertex="1" parent="1">
